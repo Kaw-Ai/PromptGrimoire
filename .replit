@@ -1,7 +1,7 @@
-run = "cowsay Configure me!"
+run = "echo '🗺️ Welcome to PromptGrimoire Treasure Hunt! 🏴‍☠️' && cowsay 'Configure me!' && echo '' && echo '📍 Your adventure begins! Check TREASURE_HUNT_ADVENTURE.md for the complete map!' && echo '⚡ Quick start: Explore TK_PromptLib/Hotkeys.md for magical navigation spells!'"
 
 [nix]
 channel = "stable-22_11"
 
 [deployment]
-run = ["sh", "-c", "cowsay Configure me!"]
+run = ["sh", "-c", "echo '🗺️ Welcome to PromptGrimoire Treasure Hunt! 🏴‍☠️' && cowsay 'Configure me!' && echo '' && echo '📍 Your adventure begins! Check TREASURE_HUNT_ADVENTURE.md for the complete map!' && echo '⚡ Quick start: Explore TK_PromptLib/Hotkeys.md for magical navigation spells!'"]
